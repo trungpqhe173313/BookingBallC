@@ -1,0 +1,15 @@
+﻿<Window x:Class="BallBooking.AdminMainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BallBooking"
+        mc:Ignorable="d"
+        Title="AdminMainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Bóng đá" HorizontalAlignment="Left" Margin="362,10,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="24" FontWeight="Bold"/>
+        <Button x:Name="Booking" Content="Đặt sân cho khách" HorizontalAlignment="Left" Margin="215,82,0,0" VerticalAlignment="Top" Height="93" Width="330" FontFamily="Times New Roman" FontSize="22" FontWeight="Bold" Background="#FFC4DC83" BorderBrush="#FFA37E7E" Foreground="#FF504A80" Click="Booking_Click"  />
+        <!--<Button  Content="Quản lý lịch đặt" HorizontalAlignment="Left" Margin="441,75,0,0" VerticalAlignment="Top" Height="93" Width="330" FontFamily="Times New Roman" FontSize="22" FontWeight="Bold" Background="#FFC4DC83" BorderBrush="#FFA37E7E" Foreground="#FF504A80" />-->
+        <Button x:Name="Pitch" Content="Xem danh sách sân" HorizontalAlignment="Left" Margin="215,241,0,0" VerticalAlignment="Top" Height="93" Width="344" FontFamily="Times New Roman" FontSize="22" FontWeight="Bold" Background="#FFC4DC83" BorderBrush="#FFA37E7E" Foreground="#FF504A80" Click="Pitch_Click"  />
+    </Grid>
+</Window>

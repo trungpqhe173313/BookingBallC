@@ -1,0 +1,57 @@
+﻿<Window x:Class="BallBooking.UserViewBooking"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BallBooking"
+        mc:Ignorable="d"
+        Title="UserViewBooking" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="7*"/>
+        </Grid.ColumnDefinitions>
+        <DockPanel VerticalAlignment="Center" Margin="5,0,5,0" Grid.ColumnSpan="2">
+
+            <Grid  Background="LightBlue" Height="649">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="261*"/>
+                    <ColumnDefinition Width="134*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition  Height="Auto" />
+                    <RowDefinition  Height="Auto" />
+                    <RowDefinition  Height="180" />
+                    <RowDefinition  Height="*" />
+                </Grid.RowDefinitions>
+                <StackPanel Orientation="Vertical"
+        HorizontalAlignment="Left" Margin="0, 10, 0, 0" Grid.RowSpan="2">
+                    <Button x:Name="btnViewProfile" Margin="10" Width="80" Content="Profile" Click="btnViewProfile_Click"  
+        />
+                    <Button x:Name="btnLogOut" Margin="10" Width="80" Content="LogOut" Click="btnLogOut_Click"  
+        />
+                </StackPanel>
+                <StackPanel Orientation="Vertical"
+                HorizontalAlignment="Left" Width="500" Grid.ColumnSpan="2" Margin="145,0,0,0"/>
+
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Grid.ColumnSpan="2" Margin="195,342,0,0" Grid.RowSpan="2"/>
+
+
+                <DataGrid Name="dgBooking" Height="Auto" Margin="10,147,91,40" Grid.RowSpan="2"  Grid.ColumnSpan="2">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Pitches" Width="100" Binding="{Binding Field.FieldName}"/>
+                        <DataGridTextColumn Header="Booking Date" Width="150" Binding="{Binding BookingDate}"/>
+                        <DataGridTextColumn Header="Start date" Width="100" Binding="{Binding StartTime}"/>
+                        <DataGridTextColumn Header="End date" Width="100" Binding="{Binding EndTime}"/>
+                        <DataGridTextColumn Header="Price per hour" Width="100" Binding="{Binding Field.PricePerHour}"/>
+                        <DataGridTextColumn Header="Total Price" Width="150" Binding="{Binding TotalPrice}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+
+
+                <!--<Button Grid.Row="3" x:Name="btnClose" Margin="10" HorizontalAlignment="Right"
+            Width="80" VerticalAlignment="Bottom" Content="Close" Click="btnClose_Click"/>-->
+            </Grid>
+        </DockPanel>
+    </Grid>
+</Window>

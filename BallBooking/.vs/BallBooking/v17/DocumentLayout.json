@@ -1,0 +1,115 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\phamt\\source\\repos\\BallBooking\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C7AB2FC9-F807-4BBB-820F-0566A67CFAE3}|BallBooking\\BallBooking.csproj|c:\\users\\phamt\\source\\repos\\ballbooking\\ballbooking\\fieldwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7AB2FC9-F807-4BBB-820F-0566A67CFAE3}|BallBooking\\BallBooking.csproj|solutionrelative:ballbooking\\fieldwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7AB2FC9-F807-4BBB-820F-0566A67CFAE3}|BallBooking\\BallBooking.csproj|c:\\users\\phamt\\source\\repos\\ballbooking\\ballbooking\\fieldwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C7AB2FC9-F807-4BBB-820F-0566A67CFAE3}|BallBooking\\BallBooking.csproj|solutionrelative:ballbooking\\fieldwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7AB2FC9-F807-4BBB-820F-0566A67CFAE3}|BallBooking\\BallBooking.csproj|c:\\users\\phamt\\source\\repos\\ballbooking\\ballbooking\\bookfieldwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7AB2FC9-F807-4BBB-820F-0566A67CFAE3}|BallBooking\\BallBooking.csproj|solutionrelative:ballbooking\\bookfieldwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7AB2FC9-F807-4BBB-820F-0566A67CFAE3}|BallBooking\\BallBooking.csproj|c:\\users\\phamt\\source\\repos\\ballbooking\\ballbooking\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7AB2FC9-F807-4BBB-820F-0566A67CFAE3}|BallBooking\\BallBooking.csproj|solutionrelative:ballbooking\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7AB2FC9-F807-4BBB-820F-0566A67CFAE3}|BallBooking\\BallBooking.csproj|c:\\users\\phamt\\source\\repos\\ballbooking\\ballbooking\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C7AB2FC9-F807-4BBB-820F-0566A67CFAE3}|BallBooking\\BallBooking.csproj|solutionrelative:ballbooking\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7AB2FC9-F807-4BBB-820F-0566A67CFAE3}|BallBooking\\BallBooking.csproj|c:\\users\\phamt\\source\\repos\\ballbooking\\ballbooking\\models\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7AB2FC9-F807-4BBB-820F-0566A67CFAE3}|BallBooking\\BallBooking.csproj|solutionrelative:ballbooking\\models\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\phamt\\source\\repos\\BallBooking\\BallBooking\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "BallBooking\\Models\\Booking.cs",
+              "ToolTip": "C:\\Users\\phamt\\source\\repos\\BallBooking\\BallBooking\\Models\\Booking.cs",
+              "RelativeToolTip": "BallBooking\\Models\\Booking.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAA9wBwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T20:36:25.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookFieldWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\phamt\\source\\repos\\BallBooking\\BallBooking\\BookFieldWindow.xaml.cs",
+              "RelativeDocumentMoniker": "BallBooking\\BookFieldWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\phamt\\source\\repos\\BallBooking\\BallBooking\\BookFieldWindow.xaml.cs",
+              "RelativeToolTip": "BallBooking\\BookFieldWindow.xaml.cs",
+              "ViewState": "AQIAADYBAAAAAAAAAAAcwHUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T20:24:21.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\phamt\\source\\repos\\BallBooking\\BallBooking\\App.xaml",
+              "RelativeDocumentMoniker": "BallBooking\\App.xaml",
+              "ToolTip": "C:\\Users\\phamt\\source\\repos\\BallBooking\\BallBooking\\App.xaml",
+              "RelativeToolTip": "BallBooking\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-19T20:04:19.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FieldWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\phamt\\source\\repos\\BallBooking\\BallBooking\\FieldWindow.xaml.cs",
+              "RelativeDocumentMoniker": "BallBooking\\FieldWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\phamt\\source\\repos\\BallBooking\\BallBooking\\FieldWindow.xaml.cs",
+              "RelativeToolTip": "BallBooking\\FieldWindow.xaml.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAIwFcAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T19:56:06.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Field.cs",
+              "DocumentMoniker": "C:\\Users\\phamt\\source\\repos\\BallBooking\\BallBooking\\Models\\Field.cs",
+              "RelativeDocumentMoniker": "BallBooking\\Models\\Field.cs",
+              "ToolTip": "C:\\Users\\phamt\\source\\repos\\BallBooking\\BallBooking\\Models\\Field.cs",
+              "RelativeToolTip": "BallBooking\\Models\\Field.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T19:44:25.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FieldWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\phamt\\source\\repos\\BallBooking\\BallBooking\\FieldWindow.xaml",
+              "RelativeDocumentMoniker": "BallBooking\\FieldWindow.xaml",
+              "ToolTip": "C:\\Users\\phamt\\source\\repos\\BallBooking\\BallBooking\\FieldWindow.xaml",
+              "RelativeToolTip": "BallBooking\\FieldWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-19T19:41:58.901Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

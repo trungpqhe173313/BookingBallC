@@ -1,0 +1,66 @@
+﻿<Window x:Class="BallBooking.UserViewProfile"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BallBooking"
+        mc:Ignorable="d"
+        Title="UserViewProfile" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="7*"/>
+        </Grid.ColumnDefinitions>
+        <DockPanel VerticalAlignment="Center" Margin="5,0,5,0" Grid.ColumnSpan="2">
+
+            <Grid  Background="LightBlue" Height="649">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="261*"/>
+                    <ColumnDefinition Width="134*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition  Height="Auto" />
+                    <RowDefinition  Height="Auto" />
+                    <RowDefinition  Height="180" />
+                    <RowDefinition  Height="*" />
+                </Grid.RowDefinitions>
+                <StackPanel Orientation="Vertical"
+            HorizontalAlignment="Left" Margin="0, 10, 0, 0" Grid.RowSpan="2">
+                    <Button x:Name="btnViewBooking" Margin="10" Width="80" Content="View Booking" Click="btnViewBooking_Click"  
+            />
+                    <Button x:Name="btnLogOut" Margin="10" Width="80" Content="LogOut" Click="btnLogOut_Click" 
+            />
+                </StackPanel>
+                <StackPanel Orientation="Vertical"
+                    HorizontalAlignment="Left" Width="500" Grid.ColumnSpan="2" Margin="145,0,0,0">
+                    <Label Name="lbTitle" Foreground="Red" FontWeight="DemiBold"
+                   FontSize="20" Content="Hồ sơ cá nhân"/>
+
+                    <Label Name="lbId" Content="FullName"></Label>
+                    <TextBox Name="txtName" HorizontalAlignment="Stretch"
+                     Height="25" Text="{Binding Path=FullName, Mode=OneWay}"
+                     DataContext="{Binding  ElementName=lvMembers,Path=SelectedItem}"/>
+
+                    <Label Name="lbFullname" Content="Email Address"></Label>
+                    <TextBox Name="txtEmail" HorizontalAlignment="Stretch"
+                     Height="25" Text="{Binding Path=Email, Mode=OneWay}"
+                     DataContext="{Binding  ElementName=lvMembers,Path=SelectedItem}"/>
+
+                    <Label Name="lbEmail" Content="Telephone"></Label>
+                    <TextBox Name="txtPhone" HorizontalAlignment="Stretch"
+                     Height="25" Text="{Binding Path=Username, Mode=OneWay}"
+                     DataContext="{Binding  ElementName=lvMembers,Path=SelectedItem}"/>
+
+
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Grid.ColumnSpan="2" Margin="195,342,0,0" Grid.RowSpan="2">
+                    <Button x:Name="btnUpdate" Width="80" Content="Update" Click="btnUpdate_Click" />
+                </StackPanel>
+
+                <!--<Button Grid.Row="3" x:Name="btnClose" Margin="10" HorizontalAlignment="Right"
+                Width="80" VerticalAlignment="Bottom" Content="Close" Click="btnClose_Click"/>-->
+            </Grid>
+        </DockPanel>
+    </Grid>
+</Window>
